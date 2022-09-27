@@ -1,0 +1,38 @@
+.bodyfooter{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height:140px;
+    background-color: rgb(63, 59, 59);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    margin-left: 150px;
+    width: 1082px;
+    height: 75px;
+    background-color: black;
+}
+.rec-container{
+    margin: 0;
+    width: 100vw;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.rectangle{
+    margin-top: 0;
+    width: 150px;
+    height: 700px;
+    background-color: grey;
+}
